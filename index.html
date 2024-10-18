@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valami majd lesz</title>
+    <title>Utazási iroda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-        <div class="bg-dark p-4">
-          <h5 class="text-body-emphasis h4">Úticélok</h5>
-          <a href="">Egyik oldal</a>
-          <br>
-          <a href="">Másik oldal</a>
-          <br>
-          <a href="">Harmadik oldal</a>
-          <br>
-          <a href="">Negyedik oldal</a>
-        </div>
-      </div>
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-dark p-4">
+      <h5 class="text-body-emphasis h4">Úticélok</h5>
+      <a href="gorog.html">Görögország</a>
+      <br>
+      <a href="olasz.html">Olaszország</a>
+      <br>
+      <a href="balaton.html">Balaton</a>
+      <br>
+      <a href="spanyol.html">Spanyolország</a>
+    </div>
+  </div>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +30,47 @@
       </nav>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <main>
-        <form action="get">
-            <input type="email" name="email" id="email">
-            <button type="submit" >Küldés</button>
-        </form>
+        <section>
+          <div id="gradient">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/spanyol1.jpg" class="d-block w-100" alt="Spanyolország">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/balaton1.jpg" class="d-block w-100" alt="Balaton">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/görög1.jpg" class="d-block w-100" alt="Görögország">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/olasz1.jpg" class="d-block w-100" alt="Olaszország">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <h1>Utazási Iroda Bemutatkozás</h1>
+          <p>Üdvözöljük a <strong>[Iroda Neve]</strong>-nél, ahol az utazás nem csupán cél, hanem élmény! Célunk, hogy segítsünk Önnek felfedezni a világ csodáit, legyen szó egy pihentető tengerparti nyaralásról, egy kalandos városlátogatásról vagy egy felejthetetlen kulturális felfedezésről.</p>
+          <h2>Miért válassza a [Iroda Neve]-t?</h2>
+          <ul>
+              <li><strong>Személyre szabott szolgáltatás:</strong> Minden utazást az Ön kívánságai szerint alakítunk ki.</li>
+              <li><strong>Széleskörű választék:</strong> Külföldi és belföldi utak, repülőjegyek, szállások és programok egy helyen.</li>
+              <li><strong>Megbízhatóság:</strong> Csapatunk mindent megtesz a zökkenőmentes utazás érdekében, és mindig Ön mellett állunk.</li>
+          </ul>
+          <p>Fedezze fel a világot velünk! Kérjük, lépjen velünk kapcsolatba, és kezdjük el megtervezni az Ön következő kalandját!</p>
+          <div id="elerhetoseg">
+            <h1>Elérhetőség</h1>
+            <h2>Cím</h2>
+          </div>
+        </section>
       </main>
-      <footer>
-
-      </footer>
 </body>
 </html>
