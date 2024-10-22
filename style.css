@@ -6,10 +6,8 @@ div .bg-dark > a {
        color: white;
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        display: none;
-    }
+div .bg-dark > a:visited {
+    color: grey;
 }
 
 nav h1 {
@@ -22,7 +20,15 @@ section {
     width: 90%;
     background-color: white;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
+}
+
+img {
+    height: 600px;
+}
+
+article {
+    padding: 25px 30px;
 }
 
 #carouselExample {
@@ -46,3 +52,6 @@ li {
     list-style-position: inside;
 }
 
+#elerhetoseg > h2, p {
+    padding-left: 20px;
+}
