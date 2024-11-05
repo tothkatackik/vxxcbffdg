@@ -23,10 +23,6 @@ section {
     /* text-align: center; */
 }
 
-img {
-    height: 600px;
-}
-
 article {
     padding: 25px 30px;
 }
@@ -54,4 +50,25 @@ li {
 
 #elerhetoseg > h2, p {
     padding-left: 20px;
+}
+
+time {
+    color: red;
+}
+
+img {
+    height: 650px;
+}
+
+a > img {
+    border: 2px dashed black;
+}
+
+@media screen and (max-width: 700px) {
+    section, #carouselExample {
+        width: 100%;
+    }
+    img {
+        height: 300px;
+    }
 }
